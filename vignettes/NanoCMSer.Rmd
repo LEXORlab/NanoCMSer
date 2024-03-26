@@ -1,3 +1,23 @@
+---
+title: "NanoCMSer"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{NanoCMSer}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(NanoCMSer)
+```
+
 # NanoCMSer
 
 An R package designed for subtyping FF / FFPE patient samples profiled by the NanoString platform. It's versatile and can also handle RNAseq and microarray datasets for CMS classification.
