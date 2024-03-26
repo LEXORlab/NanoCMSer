@@ -7,7 +7,7 @@ An example data set is provided to explain how to work with `NanoCMSer` R packag
 To install the `NanoCMSer` package use the following code:
 
 ```         
-devtools::install_github("atorang/NanoCMSer")
+devtools::install_github("LEXORlab/NanoCMSer")
 ```
 
 To run the demo below, you need to first load the package and the dataset:
